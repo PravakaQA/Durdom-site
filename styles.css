@@ -398,3 +398,9 @@ ul { list-style: none; padding: 0; margin: 0; }
 .portfolio-card__media { width: 100% !important; margin: 0 !important; padding: 0 !important; border-radius: 0 !important; }
 .portfolio-card { display: flex; flex-direction: column; }
 .portfolio-card b { padding: 8px 12px; }
+/* Footer */
+.site-footer { text-align: center; padding: 40px 20px; border-top: 1px solid var(--line); margin-top: 60px; }
+.site-footer .footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 16px; flex-wrap: wrap; }
+.site-footer a { color: var(--gray); font-size: 14px; text-decoration: none; transition: color .2s; }
+.site-footer a:hover { color: #fff; }
+.site-footer p { color: var(--gray); font-size: 13px; opacity: .7; }
